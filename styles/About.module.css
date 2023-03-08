@@ -1,0 +1,75 @@
+.about{
+    height: 90vh;
+    width: 100%;
+    border-bottom:2px solid black ;
+    display: flex;
+}
+.aboutLeft{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aboutRight{
+    padding-top: 1.3rem;
+    width: 40%;
+}
+.aboutLeftImage{
+    position: absolute;
+    width: 30%;
+    height:80%;
+}
+.aboutRightText1{
+    font-size: 3rem;
+    font-family: var(--bodyFontLight);
+    font-weight: 600;
+}
+.hr{
+    width: 20%;
+    height: 2px;
+    background-color: black;
+}
+.aboutRightText2{
+    font-size: 1rem;
+    font-family: var(--bodyFontLight);
+    font-weight: 600;
+     margin-top: 1rem;
+} 
+.aboutRightText3{
+    font-size: 1rem;
+    font-family: var(--bodyFontLight);
+    font-weight: 600;
+    margin-top: 1rem;
+} 
+.aboutRightText4{
+    font-size: 2rem;
+    font-family: var(--bodyFontLight);
+    font-weight: 600;
+    margin-top: 2rem;
+}
+.hr2{
+    width: 8%;
+    height: 2px;
+    background-color: black;
+}
+.skillBox{
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    font-family: var(--bodyFontLight);
+
+}
+.skillBoxLeft{
+    width: 50%;
+}
+.contactButton{ 
+    margin-top: 1rem;
+    height: 5vh;
+    width: 8vw;
+    background-color: white;
+    font-family: var(--bodyFontLight);
+    border: 2px solid black;
+    cursor: pointer;
+}

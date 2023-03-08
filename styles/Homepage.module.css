@@ -1,0 +1,101 @@
+.homepage{
+    height: 90vh;
+    border-bottom: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 0;
+}
+.homepageLeft{
+    height: 100%;
+    
+}
+.homepageMiddle{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.homepageRight{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.leftText1{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 5rem;
+    font-family: var(--bodyFontLight);
+    font-weight: 600;
+}
+.leftText2{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 1.5rem;
+    font-family: var(--bodyFontLight);
+    font-weight: 600;
+}
+.leftText3{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 1.5rem;
+    font-family: var(--bodyFontLight);
+    font-weight: 600;
+}
+.rightText1{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 3rem;
+    font-family: var(--bodyFontLight);
+    font-weight: 600;
+}
+.rightText2{
+    height: 30%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 1rem;
+    font-family: var(--bodyFontLight);
+    font-weight: 600;
+    margin-left: 5rem;
+    margin-top: .4rem;
+}
+.middleImage{
+    width: 30%;
+    height: 60%;
+    border-radius: 5px;
+    /* border: 2px solid black; */
+    position: absolute;
+    
+}
+.contactButton{ 
+    margin-top: 1rem;
+    height: 5vh;
+    width: 8vw;
+    background-color: black;
+    color: white;
+    font-family: var(--bodyFontLight);
+    border: 2px solid black;
+    cursor: pointer;
+    
+}
+.buttonDiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

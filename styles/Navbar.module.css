@@ -1,0 +1,27 @@
+.navbar{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1.5px solid black;
+    font-family: var(--bodyFontLight);
+    position: fixed;
+    z-index: 200;
+    background-color: white;
+}
+.navbarLeft{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.navbarRight{
+    display: flex;
+    font-size: 1.2rem;
+}
+.navbarItem{
+    margin-right: 3.5rem;
+    cursor: pointer;
+}
