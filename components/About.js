@@ -3,7 +3,7 @@ import Image from 'next/image';
 import chris3 from '../public/chris3.png'
 const About = () => {
     return (
-        <div className={styles.about}>
+        <div className={styles.about} id = "about">
             <div className={styles.aboutLeft}>
                 <div className={styles.aboutLeftImage}>
                     <Image src={chris3} fill

@@ -3,7 +3,7 @@ import Image from 'next/image';
 import chris1 from '../public/chris1.jpg'
 const Home = () => {
     return (
-        <div className={styles.homepage}>
+        <div className={styles.homepage} id = "homepage">
             <div className={styles.homepageLeft}>
                 <div className={styles.leftText1}>
                     Chris
