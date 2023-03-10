@@ -6,6 +6,7 @@ import Homepage from '@/components/Homepage'
 import About from '@/components/About'
 const inter = Inter({ subsets: ['latin'] })
 import Link from 'next/link'
+import Services from '@/components/Services'
 export default function Home() {
   return (
     <>
@@ -20,7 +21,7 @@ export default function Home() {
         <Homepage/>
         
         <About/>
-       
+        <Services/>
         
       </main>
     </>

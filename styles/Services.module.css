@@ -1,0 +1,79 @@
+.services{
+    width: 100%;
+    height: 120vh;
+    border-bottom: 2px solid black;
+
+}
+.servicesTitle{
+    margin-top: 2rem;
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-family: var(--bodyFontLight);
+    font-weight: 600;
+    
+}
+.servicesLine{
+    width: 100%;
+    height: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: .6rem;
+}
+.line{
+    background-color: black;
+    height: 2px;
+    width: 10%;
+}
+.servicesBox{
+    padding: 5.5rem;
+    width: 100%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 1rem;
+    row-gap: 1.5rem;
+    
+}
+.servicesItem{
+    width: 25vw;
+    height: 40vh;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.servicesItem:hover{
+    color: white;
+    background-color: black;
+}
+.itemIcon{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.itemText1{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    font-family: var(--bodyFontLight);
+}
+.itemText2{
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    font-family: var(--bodyFontLight);
+    font-weight: 600;
+}
+.icon{
+    height:50px;
+    width: 50px;
+}
