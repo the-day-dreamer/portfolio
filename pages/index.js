@@ -11,6 +11,7 @@ import Portfolio from '@/components/Portfolio'
 import Logos from '@/components/Logos'
 import Testimonials from '@/components/Testimonials'
 import Contact from '@/components/Contact'
+import Footer from '@/components/Footer'
 export default function Home() {
   return (
     <>
@@ -29,6 +30,7 @@ export default function Home() {
         <Portfolio/>
         <Testimonials/>
         <Contact/>
+        <Footer/>
       </main>
     </>
   )
