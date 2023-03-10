@@ -9,6 +9,7 @@ import Link from 'next/link'
 import Services from '@/components/Services'
 import Portfolio from '@/components/Portfolio'
 import Logos from '@/components/Logos'
+import Testimonials from '@/components/Testimonials'
 export default function Home() {
   return (
     <>
@@ -25,7 +26,7 @@ export default function Home() {
         <About/>
         <Services/>
         <Portfolio/>
-        
+        <Testimonials/>
       </main>
     </>
   )

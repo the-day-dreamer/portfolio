@@ -1,0 +1,18 @@
+.slider{
+    width: 30vw;
+    height: 30vh;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.sliderName{
+    text-align: center;
+    height: 30%;
+    font-size: 2.5rem;
+    font-family: var(--bodyFontLight);
+}
+.sliderText{
+    text-align: center;
+    font-family: var(--bodyFontLight);
+    font-size: 1rem;
+
+}

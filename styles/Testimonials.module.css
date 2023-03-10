@@ -1,0 +1,42 @@
+.testimonials{
+    width: 100%;
+    height: 60vh;
+    border-bottom: 2px solid black;
+}
+.testimonialsTitle{
+    width: 100%;
+    height: 10vh;
+    font-size: 2.5rem;
+    font-family: var(--bodyFontLight);
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.testimonialsLine{
+    width: 100%;
+    height: 1vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+    width: 10%;
+    height: 2px;
+    background-color: black;
+}
+.testimonialsSwiper{
+    margin-top: 2rem;
+}
+.testimonialsBlock{
+    width: 100%;
+    height: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.block{
+    width: 5%;
+    height: 1vh;
+    background-color: black;
+    margin-left: 4px;
+}
