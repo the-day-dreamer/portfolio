@@ -10,6 +10,7 @@ import Services from '@/components/Services'
 import Portfolio from '@/components/Portfolio'
 import Logos from '@/components/Logos'
 import Testimonials from '@/components/Testimonials'
+import Contact from '@/components/Contact'
 export default function Home() {
   return (
     <>
@@ -27,6 +28,7 @@ export default function Home() {
         <Services/>
         <Portfolio/>
         <Testimonials/>
+        <Contact/>
       </main>
     </>
   )
