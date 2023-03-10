@@ -1,0 +1,91 @@
+.portfolio{
+    height: 120vh;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+.portfolioTitle{
+    margin-top: 1rem;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-family: var(--bodyFontLight);
+    font-weight: 600;
+}
+.portfolioLine{
+    width: 100%;
+    height: 1vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: .5rem;
+}
+.line{
+    background-color: black;
+    width: 10%;
+    height: 2px;
+}
+.portfolioButton{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.button{
+    padding: .5rem;
+    width: 15%;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+}
+.button1{
+    border: 2px solid black;
+    border-right: none;
+}
+.button2{
+    border: 2px solid black;
+    border-right: none;
+    border-left: none;
+}
+.button3{
+    border: 2px solid black;
+    border-left: none;
+}
+.portfolioContainer{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* height: 80%; */
+}
+.portfolioButton2{
+    width: 100%;
+    height: 1.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+
+}
+.viewMore{
+    width: 10vw;
+    padding: .3rem;
+    font-family: var(--bodyFontLight);
+    font-weight: 400;
+    background-color: white;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.viewMore:hover{
+    background-color: black;
+    color: white;
+}

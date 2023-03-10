@@ -7,6 +7,8 @@ import About from '@/components/About'
 const inter = Inter({ subsets: ['latin'] })
 import Link from 'next/link'
 import Services from '@/components/Services'
+import Portfolio from '@/components/Portfolio'
+import Logos from '@/components/Logos'
 export default function Home() {
   return (
     <>
@@ -22,6 +24,7 @@ export default function Home() {
         
         <About/>
         <Services/>
+        <Portfolio/>
         
       </main>
     </>
